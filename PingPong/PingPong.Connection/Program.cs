@@ -4,14 +4,14 @@ using System.Configuration;
 using System.Reflection;
 
 
-namespace PingPong.Common
+namespace PingPong.Connection
 {
     public class Program
     {
         public static void Main(string[] args)
         {
             //Check the path of FileInfo
-            XmlConfigurator.Configure(new FileInfo(@"..\..\..\PingPong.Common.pdb"));
+            XmlConfigurator.Configure(new FileInfo(@"..\..\..\PingPong.Connection.pdb"));
             ILog log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
 
             var value = ConfigurationManager.AppSettings[""];
