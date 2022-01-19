@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace PingPong.Connection.Socket.Abstraction
+﻿namespace PingPong.Connection.Socket.Abstraction
 {
-    public interface IConnection
+    public interface IConnection<T>
     {
+        T CreateConnection(string ip, int port);
     }
 }
