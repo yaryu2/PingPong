@@ -1,4 +1,4 @@
-﻿namespace PingPong.UI
+﻿namespace PingPong.UI.Abstraction
 {
     public interface IReader<T>
     {
