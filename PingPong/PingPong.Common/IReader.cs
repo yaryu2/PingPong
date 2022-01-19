@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace PingPong.Common
 {
-    public interface IReader
+    public interface IReader<T>
     {
+        T Reader();
     }
 }
