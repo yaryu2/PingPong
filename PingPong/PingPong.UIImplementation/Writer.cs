@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using PingPong.UI.Abstraction;
 
 namespace PingPong.UIImplementation
 {
-    public interface Writer : IWriter<>
+    public class Writer : IWrite<string>
     {
+        public void Write(string value)
+        {
+            Console.WriteLine(value);
+        }
     }
 }
