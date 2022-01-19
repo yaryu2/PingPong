@@ -1,4 +1,4 @@
-﻿namespace PingPong.Connection.Socket.Abstraction
+﻿namespace PingPong.Connection.SocketBase.Abstraction
 {
     public interface IConnection<T>
     {
