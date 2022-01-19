@@ -15,6 +15,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{1CECE6
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PingPong.Connection.Server", "PingPong.Connection.Server\PingPong.Connection.Server.csproj", "{2EE68105-C055-4DA1-B06B-685440AE2309}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{E8AA4B0C-B0A2-493F-8A3C-F99E67979B1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerProcessor", "ServerProcessor\ServerProcessor.csproj", "{B32554E5-9E18-4308-A491-EC5148106DC3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +41,10 @@ Global
 		{2EE68105-C055-4DA1-B06B-685440AE2309}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EE68105-C055-4DA1-B06B-685440AE2309}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2EE68105-C055-4DA1-B06B-685440AE2309}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B32554E5-9E18-4308-A491-EC5148106DC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B32554E5-9E18-4308-A491-EC5148106DC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B32554E5-9E18-4308-A491-EC5148106DC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B32554E5-9E18-4308-A491-EC5148106DC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -45,6 +53,7 @@ Global
 		{4BC76888-F15A-4849-9ABC-C5A1D15B334F} = {F866A6B1-A230-4D11-8616-5E6D4DC21603}
 		{1CECE679-74C7-4374-A8C1-54CFB03CE051} = {F866A6B1-A230-4D11-8616-5E6D4DC21603}
 		{2EE68105-C055-4DA1-B06B-685440AE2309} = {1CECE679-74C7-4374-A8C1-54CFB03CE051}
+		{B32554E5-9E18-4308-A491-EC5148106DC3} = {E8AA4B0C-B0A2-493F-8A3C-F99E67979B1B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {98E8C23A-9856-4BD9-976D-751C119F23BF}
