@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PingPong.Common", "PingPong.Common\PingPong.Common.csproj", "{7E2D98E7-4810-4676-B783-D6F90CC87655}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PingPong.UI", "PingPong.UI\PingPong.UI.csproj", "{60B37767-CA3E-48B4-B298-7D2C8D7058AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PingPong.UIImplementation", "PingPong.UIImplementation\PingPong.UIImplementation.csproj", "{834A101D-0DFB-42A8-A688-6EB43260481F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7E2D98E7-4810-4676-B783-D6F90CC87655}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7E2D98E7-4810-4676-B783-D6F90CC87655}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7E2D98E7-4810-4676-B783-D6F90CC87655}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7E2D98E7-4810-4676-B783-D6F90CC87655}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60B37767-CA3E-48B4-B298-7D2C8D7058AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60B37767-CA3E-48B4-B298-7D2C8D7058AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60B37767-CA3E-48B4-B298-7D2C8D7058AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60B37767-CA3E-48B4-B298-7D2C8D7058AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{834A101D-0DFB-42A8-A688-6EB43260481F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{834A101D-0DFB-42A8-A688-6EB43260481F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{834A101D-0DFB-42A8-A688-6EB43260481F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{834A101D-0DFB-42A8-A688-6EB43260481F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
