@@ -3,21 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PingPong.UI", "PingPong.UI\PingPong.UI.csproj", "{60B37767-CA3E-48B4-B298-7D2C8D7058AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PingPong.UI", "PingPong.UI\PingPong.UI.csproj", "{60B37767-CA3E-48B4-B298-7D2C8D7058AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PingPong.UIImplementation", "PingPong.UIImplementation\PingPong.UIImplementation.csproj", "{834A101D-0DFB-42A8-A688-6EB43260481F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PingPong.UIImplementation", "PingPong.UIImplementation\PingPong.UIImplementation.csproj", "{834A101D-0DFB-42A8-A688-6EB43260481F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Connection", "Connection", "{F866A6B1-A230-4D11-8616-5E6D4DC21603}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PingPong.Connection", "PingPong.Connection\PingPong.Connection.csproj", "{4BC76888-F15A-4849-9ABC-C5A1D15B334F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PingPong.Connection", "PingPong.Connection\PingPong.Connection.csproj", "{4BC76888-F15A-4849-9ABC-C5A1D15B334F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{1CECE679-74C7-4374-A8C1-54CFB03CE051}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PingPong.Connection.Server", "PingPong.Connection.Server\PingPong.Connection.Server.csproj", "{2EE68105-C055-4DA1-B06B-685440AE2309}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PingPong.Connection.Server", "PingPong.Connection.Server\PingPong.Connection.Server.csproj", "{2EE68105-C055-4DA1-B06B-685440AE2309}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{E8AA4B0C-B0A2-493F-8A3C-F99E67979B1B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PingPong.ServerImoplementation", "PingPong.ServerImoplementation\PingPong.ServerImoplementation.csproj", "{3D06CA1B-69A5-4B77-9E99-9531F4F46C59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PingPong.Core.Factories", "PingPong.Core.Factories\PingPong.Core.Factories.csproj", "{1C25146E-7679-49EF-A3B7-02B73FF4AEC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PingPong.ServerProcessor", "PingPong.ServerProcessor\PingPong.ServerProcessor.csproj", "{B63B45AD-3D3F-46CF-9916-7FB9DC3E27AE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,23 +30,16 @@ Global
 		{60B37767-CA3E-48B4-B298-7D2C8D7058AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{60B37767-CA3E-48B4-B298-7D2C8D7058AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60B37767-CA3E-48B4-B298-7D2C8D7058AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{60B37767-CA3E-48B4-B298-7D2C8D7058AE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{834A101D-0DFB-42A8-A688-6EB43260481F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{834A101D-0DFB-42A8-A688-6EB43260481F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{834A101D-0DFB-42A8-A688-6EB43260481F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{834A101D-0DFB-42A8-A688-6EB43260481F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4BC76888-F15A-4849-9ABC-C5A1D15B334F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4BC76888-F15A-4849-9ABC-C5A1D15B334F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BC76888-F15A-4849-9ABC-C5A1D15B334F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4BC76888-F15A-4849-9ABC-C5A1D15B334F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2EE68105-C055-4DA1-B06B-685440AE2309}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2EE68105-C055-4DA1-B06B-685440AE2309}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EE68105-C055-4DA1-B06B-685440AE2309}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2EE68105-C055-4DA1-B06B-685440AE2309}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3D06CA1B-69A5-4B77-9E99-9531F4F46C59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3D06CA1B-69A5-4B77-9E99-9531F4F46C59}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3D06CA1B-69A5-4B77-9E99-9531F4F46C59}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3D06CA1B-69A5-4B77-9E99-9531F4F46C59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C25146E-7679-49EF-A3B7-02B73FF4AEC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C25146E-7679-49EF-A3B7-02B73FF4AEC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B63B45AD-3D3F-46CF-9916-7FB9DC3E27AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B63B45AD-3D3F-46CF-9916-7FB9DC3E27AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +48,7 @@ Global
 		{4BC76888-F15A-4849-9ABC-C5A1D15B334F} = {F866A6B1-A230-4D11-8616-5E6D4DC21603}
 		{1CECE679-74C7-4374-A8C1-54CFB03CE051} = {F866A6B1-A230-4D11-8616-5E6D4DC21603}
 		{2EE68105-C055-4DA1-B06B-685440AE2309} = {1CECE679-74C7-4374-A8C1-54CFB03CE051}
+		{1C25146E-7679-49EF-A3B7-02B73FF4AEC3} = {E8AA4B0C-B0A2-493F-8A3C-F99E67979B1B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {98E8C23A-9856-4BD9-976D-751C119F23BF}

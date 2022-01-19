@@ -7,4 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\PingPong.Core.Factories\PingPong.Core.Factories.csproj" />
+  </ItemGroup>
+
 </Project>

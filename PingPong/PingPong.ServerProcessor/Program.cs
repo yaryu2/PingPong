@@ -1,7 +1,7 @@
-﻿using System;
+﻿using PingPong.Core.Factories;
 
 
-namespace PingPong.ServerImoplementation
+namespace PingPong.ServerProcessor
 {
     public class Program
     {
