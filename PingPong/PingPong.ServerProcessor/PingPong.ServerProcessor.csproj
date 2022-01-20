@@ -8,7 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\PingPong.Core.Factories\PingPong.Core.Factories.csproj" />
+    <ProjectReference Include="..\PingPong.Connection.Server\PingPong.Connection.Server.csproj" />
+    <ProjectReference Include="..\PingPong.Connection\PingPong.Connection.csproj" />
+    <ProjectReference Include="..\PingPong.UIImplementation\PingPong.UIImplementation.csproj" />
+    <ProjectReference Include="..\PingPong.UI\PingPong.UI.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,22 +1,20 @@
-﻿using PingPong.Connection.Abstract;
-using PingPong.Connection.SocketBase;
+﻿using PingPong.Connection.SocketBase;
+using PingPong.Connection.SocketBase.Abstraction;
 using PingPong.UI;
 
 namespace PingPong.Connection
 {
-    public abstract class ConnectionBase<TType, TWrite, TRead>
+    public abstract class ConnectionBase<TType, TWrite, TRead, TArg>
     {
-        protected IHandleRequestSocket<TRead, TWrite> _handleRequest;
-        protected SocketBase<TType, TWrite, TRead> _socket;
+        protected SocketBase<TType, TWrite, TRead, TArg> _socket;
+        protected UIBase<TRead, TWrite> _ui;
 
-        public ConnectionBase(
-            IHandleRequestSocket<TRead, TWrite> handleRequest, 
-            SocketBase<TType, TWrite, TRead> socket)
+        public ConnectionBase(UIBase<TRead, TWrite> ui, SocketBase<TType, TWrite, TRead, TArg> socket)
         {
-            _handleRequest = handleRequest;
+            _ui = ui;
             _socket = socket;
         }
 
-        public abstract void Run(string ip, int port, UIBase<TRead, TWrite> ui);
+        public abstract void Run(string ip, int port);
     }
 }

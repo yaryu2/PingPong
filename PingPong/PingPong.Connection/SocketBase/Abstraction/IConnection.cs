@@ -1,7 +1,7 @@
 ﻿namespace PingPong.Connection.SocketBase.Abstraction
 {
-    public interface IConnection<T>
+    public interface IConnection<T, K>
     {
-        T CreateConnection(string ip, int port);
+        T CreateConnection(K arg);
     }
 }

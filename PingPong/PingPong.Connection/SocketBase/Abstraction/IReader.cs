@@ -2,8 +2,8 @@
 
 namespace PingPong.Connection.SocketBase.Abstraction
 {
-    public interface IReader<T>
+    public interface IReader<T, K>
     {
-        T Read(Socket handler);
+        T Read(K arg);
     }
 }

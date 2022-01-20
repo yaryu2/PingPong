@@ -1,22 +1,21 @@
-﻿using PingPong.Connection.Server.Abstract;
-using PingPong.Connection.Server.SocketBase;
+﻿using PingPong.Connection.Server.SocketBase;
+using PingPong.Connection.SocketBase;
 using PingPong.UI;
+using System.Net;
 using System.Net.Sockets;
 
 namespace PingPong.Connection.Server
 {
-    public class ConnectionImplementaion : ConnectionBase<Socket, string, string>
+    public class ConnectionImplementaion : ConnectionBase<Socket, string, string, IAsyncResult>
     {
-        public ConnectionImplementaion() : base(
-            new HandleRequest(), 
-            new SocketImplementation()) { }
+        public ConnectionImplementaion(
+            UIBase<string, string> ui, 
+            SocketBase<Socket, string, string, IAsyncResult> socket) : base(ui, socket)
+        { }
 
-        public override void Run(string ip, int port, UIBase<string, string> ui)
+        public override void Run(string ip, int port)
         {
-            var connection = _socket.CreateConnection(ip, port);
-            var msg = _socket.Read(connection);
-            var respons = _handleRequest.HandleRequestSocket(msg, ui);
-            _socket.Write(respons, connection);
+            throw new NotImplementedException();
         }
     }
 }

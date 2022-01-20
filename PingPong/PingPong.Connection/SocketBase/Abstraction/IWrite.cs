@@ -2,8 +2,8 @@
 
 namespace PingPong.Connection.SocketBase.Abstraction
 {
-    public interface IWrite<T>
+    public interface IWrite<T, K>
     {
-        void Write(T value, Socket handler);
+        public void Write(T value, K handler);
     }
 }

@@ -1,6 +1,6 @@
 ﻿using PingPong.UI;
 
-namespace PingPong.Connection.Abstract
+namespace PingPong.Connection.SocketBase.Abstraction
 {
     public interface IHandleRequestSocket<T, K>
     {
